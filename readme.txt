@@ -15,6 +15,7 @@ gym      0.17.3
 
 conda create -n rl_app_1 python=3.8.5
 activate rl_app_1
+pip install -r requirements.txt
 
 pip install Flask==2.1.0
 pip install Werkzeug==2.1.2
